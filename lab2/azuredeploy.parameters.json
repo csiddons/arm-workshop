@@ -2,8 +2,32 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "webAppName": {
-            "value": "richeneyarm"
+        "name": {
+            "value": "Chadarm"
+        },
+        "hostingPlanName": {
+            "value": "Chad-arm-plan"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "South Central US"
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "lab2"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "subscriptionId": {
+            "value": "5e92d47f-711f-4b6f-9a67-a242de8bb442"
         }
     }
 }
